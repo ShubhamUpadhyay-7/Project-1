@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.navbar ul li {
+  padding: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: lightgray;
+}
+
+.navbar ul .logo {
+  margin-right: auto;
+}
+body {
+  background-color: #f0f0f0;
+}
+body > p {
+  width: 80vw;
+  text-align: center;
+  padding-left: 10vw;
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #333;
+}
+.file {
+  width: 30vw;
+  padding-left: 35vw;
+  font-size: medium;
+}
+.query {
+  height: 6vh;
+  width: 60vw;
+  margin: 4vw;
+  padding-left: 2vw;
+}
+.footer {
+  display: flex;
+  margin-top: 1vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.submit {
+  border: none;
+}
+.upload {
+  margin-top: 10vh;
+  height: 2vh;
+}
+.img1 {
+  width: 100vw;
+  height: 30vh;
+}
